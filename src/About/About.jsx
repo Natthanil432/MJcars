@@ -3,7 +3,8 @@ import Navbar from '../Navbar/Navbar'
 import Footer from './../Home/Footer/Footer';
 export default function About() {
   return (
-    <div>
+    <div> 
+      
         <Navbar />
         <div className="About">
             <Abouts />
