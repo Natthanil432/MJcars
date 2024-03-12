@@ -1,0 +1,33 @@
+.review{
+    
+    margin: 20px 20px;
+}
+.allReview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.boxReview{
+    box-shadow: 0 0 2px #959595;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.boxReview img{
+    width: 100%;
+    padding:20px;
+}
+@media (max-width:1280px) {
+    .allReview{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media (max-width:800px) {
+    .allReview{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}

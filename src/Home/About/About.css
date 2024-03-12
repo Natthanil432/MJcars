@@ -1,0 +1,20 @@
+.about{
+    text-align: center;
+    padding: 5% 0px;
+}
+.about h1{
+    color: #ff6ea8;
+    text-shadow:0 0 2px #ff3083;
+}
+.aboutContent{
+    width: 60%;
+    margin: 0 auto;
+}
+.aboutContent p{
+    font-size:20px;
+    color: #565656;
+}
+.HowToRentACar img{
+    width: 100%;
+}
+

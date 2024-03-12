@@ -1,0 +1,133 @@
+.footer {
+    box-shadow: 0 0 2px #959595;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.containerFooter {
+    display: flex;
+
+}
+
+.logoFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imageFooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addressMJCar {
+    margin: 20px 0;
+    text-align: center;
+    color: #959595;
+
+}
+
+.logoFooter img {
+    width: 70px;
+}
+
+.boxFooter {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    padding: 30px 50px;
+
+}
+/* .menuFooter h2{
+    text-align: center;
+} */
+
+.menuFooter ul {
+    list-style-type: none;
+}
+
+.menuFooter ul li {
+    margin-left: -30px;
+    margin-top: 15px;
+    color: #959595;
+    transition: all ease .35s;
+    -webkit-transition: all ease .35s;
+    -moz-transition: all ease .35s;
+    -ms-transition: all ease .35s;
+    -o-transition: all ease .25s;
+    /* text-align: center; */
+}
+
+.menuFooter ul li:hover {
+    color: #ff6ea8;
+    font-weight: 500;
+}
+
+.line a , .facebook a{
+    display: flex;
+    align-items: center;
+}
+.facebook a i{
+    font-size:30px;
+   
+}
+.line a i{
+    font-size:30px;
+    color: green;
+
+}
+.line a p{
+    margin:-5px 0 0 5px ;
+    color: #959595;
+    transition: all 0.25s;
+
+}
+.facebook a p{
+    margin:-5px 0 0 5px ;
+    color: #959595;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+}
+.facebook a p:hover {
+    color: #ff6ea8;
+  
+    transition: all 0.25s;
+
+}
+.line a p:hover{
+    color: #ff6ea8;
+    transition: all 0.25s;
+}
+.notCopy{
+    color: #ffff;
+    background-color: #ff6ea8;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media (max-width:1200px) {
+    .boxFooter {
+        display: grid;
+        grid-template-columns: 2fr 1fr ;
+        padding: 30px 50px;
+        text-align: center;
+    }
+}
+@media (max-width:800px) {
+    .boxFooter {
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 30px 0px;
+        text-align: center;
+        border: 5px solid #0000;
+        margin: 0 auto;
+    }
+}
