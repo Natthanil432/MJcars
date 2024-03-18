@@ -6,6 +6,7 @@ import image3 from './image/TOYOTA.png'
 import image4 from './image/HONDA.png';
 import image5 from './image/TOYOTA1.png'
 import './Reserve.css'
+import Links from '../Links/Links';
 
 export default function Reserve() {
   const image = [image1,
@@ -19,6 +20,7 @@ export default function Reserve() {
   return (
     <div>
       <Navbar />
+      <Links />
       <div className="mjcars">
         <h5 title='mjcars'>เริ่มต้นที่  <b>{price} บาท</b></h5>
       </div>

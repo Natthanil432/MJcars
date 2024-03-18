@@ -11,6 +11,7 @@ import Travel8 from './image/น้ำตกห้วยหลวง.png'
 import Travel9 from './image/ทุ่งหนองหญ้าม้า.png'
 import Travel10 from './image/จุดชมวิวแม่น้ำสองสี.png'
 import Footer from './../Home/Footer/Footer';
+import Links from '../Links/Links';
 
 const titleTravel = ['สามพันโบก' , 'แก่งหินงาม (หาดชมดาว)' ,'อุทยานแห่งชาติผาแต้ม' , `น้ำตกแสงจันทร์ (น้ำตกลงรู)` , 
 `วัดสิรินธรวรารามภูพร้าว`, `วัดพระธาตุหนองบัว` , `อุทยานแห่งชาติแก่งตะนะ` ,`น้ำตกห้วยหลวง อุทยานแห่งชาติภูจองนายอย`,`ทุ่งหนองหญ้าม้า`,`จุดชมวิวแม่น้ำสองสี โขงเจียม`]
@@ -88,6 +89,7 @@ export default function Travel() {
     return (
         <div>
             <Navbar />
+            <Links />
             <div className="travel">
                 {/* <h3>สถานที่ท่องเที่ยวในจังหวัดอุบล</h3> */}
                 {travel}

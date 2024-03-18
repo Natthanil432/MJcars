@@ -3,11 +3,13 @@ import './Review.css'
 import Footer from '../Home/Footer/Footer'
 import image1 from './image/1.jpg'
 import image2 from './image/2.jpg'
+import Links from '../Links/Links'
 export default function Review() {
   const image = [image1, image2]
   return (
     <div>
       <Navbar />
+      <Links />
       <div className="review">
         <div className="allReview">
           {
