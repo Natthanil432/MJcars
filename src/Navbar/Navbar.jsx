@@ -8,34 +8,36 @@ export default function Navbar() {
     const [display, setDisplay] = useState('close')
     return (
         
-            <div className="Navbar">
-                <div className="boxNavbar">
-                    <div className="image">
-                        <Link to='/'><img src={logo} alt="" /></Link>
+            <div className="Navbar" title='mjcars'>
+                <div className="boxNavbar" title='mjcars'>
+                    <div className="image" title='mjcars'>
+                        <Link to='/' title='mjcars'>
+                            <img src={logo} alt=""  title='mjcars'/>
+                            </Link>
                     </div>
-                    <div className="Link">
-                        <Link to='/'>
-                            <li>หน้าหลัก</li>
+                    <div className="Link" title='mjcars'>
+                        <Link to='/' title='mjcars'>
+                            <li title='mjcars'>หน้าหลัก</li>
                         </Link>
-                        <Link to='/about'>
-                            <li>เกี่ยวกับเรา</li>
+                        <Link title='mjcars' to='/about'>
+                            <li title='mjcars'>เกี่ยวกับเรา</li>
                         </Link>
-                        <Link to='/reserve'>
-                            <li>จองรถ</li>
+                        <Link title='mjcars' to='/reserve'>
+                            <li title='mjcars'>จองรถ</li>
                         </Link>
 
-                        <Link to='/travel'>
-                            <li>ท่องเที่ยว</li>
+                        <Link title='mjcars' to='/travel'>
+                            <li title='mjcars'>ท่องเที่ยว</li>
                         </Link>
-                        <Link to='/review'>
-                            <li>รีวิว</li>
+                        <Link title='mjcars' to='/review'>
+                            <li title='mjcars'>รีวิว</li>
                         </Link>
-                        <Link to='/content'>
-                            <li>ติดต่อ</li>
+                        <Link title='mjcars' to='/content'>
+                            <li title='mjcars'>ติดต่อ</li>
                         </Link>
 
                     </div>
-                    <div className="iconMenu" onClick={() => {
+                    <div title='mjcars' className="iconMenu" onClick={() => {
                         if (display === 'close') {
                             setDisplay('open')
                         } else {
@@ -47,25 +49,25 @@ export default function Navbar() {
                 </div>
                 {display == 'open' ?
                 <>
-                    <div className="Link800px">
-                        <Link to='/'>
-                            <li>หน้าหลัก</li>
+                    <div title='mjcars' className="Link800px">
+                        <Link title='mjcars' to='/'>
+                            <li title='mjcars'>หน้าหลัก</li>
                         </Link>
-                        <Link to='/about'>
-                            <li>เกี่ยวกับเรา</li>
+                        <Link title='mjcars' to='/about'>
+                            <li title='mjcars'>เกี่ยวกับเรา</li>
                         </Link>
-                        <Link to='/Reserve'>
-                            <li>จองรถ</li>
+                        <Link title='mjcars' to='/Reserve'>
+                            <li title='mjcars'>จองรถ</li>
                         </Link>
 
-                        <Link to='/travel'>
-                            <li>ท่องเที่ยว</li>
+                        <Link title='mjcars' to='/travel'>
+                            <li title='mjcars'>ท่องเที่ยว</li>
                         </Link>
-                        <Link to='/review'>
-                            <li>รีวิว</li>
+                        <Link title='mjcars' to='/review'>
+                            <li title='mjcars'>รีวิว</li>
                         </Link>
-                        <Link to='/content'>
-                            <li>ติดต่อ</li>
+                        <Link title='mjcars' to='/content'>
+                            <li title='mjcars'>ติดต่อ</li>
                         </Link>
                     </div>
                 </> : <></>}

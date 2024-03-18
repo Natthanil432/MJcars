@@ -1,0 +1,52 @@
+.Links {
+    position: sticky;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 95%;
+   justify-content: flex-end;
+    
+}
+
+.boxLinks {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   
+   background-color: #fff;
+   border-radius:20px ;
+   -webkit-border-radius:20px ;
+   -moz-border-radius:20px ;
+   -ms-border-radius:20px ;
+   -o-border-radius:20px ;
+}
+.boxLinks .facebook a i , .boxLinks .line a i{
+   font-size: 50px;
+   padding: 0 10px;
+   margin: 0;
+   box-sizing: border-box;
+}
+@media (max-width:1280px) {
+    .Links {
+        margin-left: 90%;
+    }
+}
+@media (max-width:1028px) {
+    .Links {
+        margin-left: 90%;
+    }
+}
+@media (max-width:800px) {
+    .Links {
+        margin-left: 88%;
+    }
+    .boxLinks .facebook a i , .boxLinks .line a i{
+        font-size: 40px;
+        
+     }
+}
+@media (max-width:500px) {
+    .Links {
+        margin-left: 80%;
+    }
+}

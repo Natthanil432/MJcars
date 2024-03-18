@@ -8,7 +8,7 @@ export default function Content() {
             <div >
                 <Navbar />
             </div>
-            <div className="content">
+            <div className="content" title="mjcars">
                 <Footer />
             </div>
         </div>

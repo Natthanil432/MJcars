@@ -16,22 +16,23 @@ export default function Cars() {
   const gen = [`Mirage 2012`, `ZS`, `Yaris Ativ 1.2 Smart 2023`, `FREED 2014`, `Yaris 2022`]
   const price = [800]
   return (
-    <div>
-      <div className="cars">
-        <div className="boxTotal">
+
+    <div className='mjcars' title='mjcars'>
+      <h5 title='mjcars'><b>เริ่มต้นที่  {price} บาท</b></h5>
+      <div title='mjcars' className="cars" >
+        <div title='mjcars' className="boxTotal">
           {
             titleCar.map((title, i) => {
               return (
                 <>
-                  <a href="https://line.me/R/ti/p/@254ubqgv?from=page&searchId=254ubqgv" target="_blank" rel="noreferrer">
-                    <div className="boxCars">
-                      <div className="imageCar">
-                        <img src={image[i]} alt="" />
+                  <a title='mjcars' href="https://line.me/R/ti/p/@254ubqgv?from=page&searchId=254ubqgv"  target="_blank" rel="noreferrer">
+                    <div title='mjcars' className="boxCars" >
+                      <div title='mjcars' className="imageCar">
+                        <img title='mjcars' src={image[i]} alt="" />
                       </div>
-                      <div className="titleCar">
-                        <h1>{title}</h1>
-                        <h6>{gen[i]}</h6>
-                        <h5>ราคาเริ่มต้นที่  <b>{price} บาท</b></h5>
+                      <div title='mjcars' className="titleCar">
+                        <h1 title='mjcars'>{title}</h1>
+                        <h6 title='mjcars'>{gen[i]}</h6>
                       </div>
                     </div>
                   </a>

@@ -3,10 +3,9 @@ import './Banner.css'
 export default function Banner() {
   return (
     <div>
-        <div className="banner">
-                   
-                    <div className="bannerImage">
-                        <img src={BannerIntro} alt="" />
+        <div className="banner" title="mjcars">   
+                    <div className="bannerImage" title="mjcars">
+                        <img src={BannerIntro} alt="mjcars"  title="mjcars" />
                     </div>
                 </div>
     </div>

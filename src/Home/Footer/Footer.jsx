@@ -4,59 +4,72 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <div>
-            <div className="footer">
-                <div className="containerFooter">
-                    <div className="boxFooter">
-                        <div className="logoFooter">
-                            <div className="imageFooter">
+            <div className="footer" title="mjcars">
+                <div className="containerFooter" title="mjcars">
+                    <div className="boxFooter" title="mjcars">
+                        <div className="logoFooter" title="mjcars">
+                            <div className="imageFooter" title="mjcars">
                                 <img src={footerImage} alt="" />
-                                <h3>MJ cars</h3>
+                                <h3 title="mjcars">MJ cars</h3>
                             </div>
-                            <div className="addressMJCar">
-                                <p>196/98 หมู่6 ต.ขามใหญ่ อ.เมือง จ.อุบลราชธานี 34000</p>
+                            <div className="addressMJCar" title="mjcars">
+                                <p title="mjcars">196/98 หมู่6 ต.ขามใหญ่ อ.เมือง จ.อุบลราชธานี 34000</p>
                             </div>
                         </div>
-                        <div className="contentFooter">
-                            <div className="menuFooter">
-                                <h2 >เมนู</h2>
-                                <ul>
-                                    <Link to=""><li>หน้าหลัก</li></Link>
-                                    <Link to=""><li>เกี่ยวกับเรา</li></Link>
-                                    <Link to=""><li>จองรถ</li></Link>
-                                    <Link to=""><li>ท่องเที่ยว</li></Link>
-                                    <Link to=""><li>รีวิว</li></Link>
-                                    <Link to=""><li>ติดต่อ</li></Link>
+                        <div className="contentFooter" title="mjcars">
+                            <div className="menuFooter" title="mjcars">
+                                <h2 title="mjcars">เมนู</h2>
+                                <ul title="mjcars">
+                                    <Link to='/' title="mjcars">
+                                        <li title="mjcars">หน้าหลัก</li>
+                                    </Link>
+                                    <Link to='/about' title="mjcars">
+                                        <li title="mjcars">เกี่ยวกับเรา</li>
+                                    </Link>
+                                    <Link to='/reserve' title="mjcars">
+                                        <li title="mjcars">จองรถ</li>
+                                    </Link>
+
+                                    <Link to='/travel' title="mjcars">
+                                        <li title="mjcars">ท่องเที่ยว</li>
+                                    </Link>
+                                    <Link to='/review' title="mjcars">
+                                        <li title="mjcars">รีวิว</li>
+                                    </Link>
+                                    <Link to='/content' title="mjcars">
+                                        <li title="mjcars">ติดต่อ</li>
+                                    </Link>
                                 </ul>
                             </div>
 
                         </div>
-                        <div className="contentFooters">
-                            <h3>ติดต่อ</h3>
-                            <div className="contentIcon">
-                                <div className="line">
-                                    <Link to="https://line.me/R/ti/p/@254ubqgv?from=page&searchId=254ubqgv">
-                                        <i className="bi bi-line"></i> 
-                                        <p> รถเช่าอุบลราคาถูก MJ car for rent </p>
+                        <div className="contentFooters" title="mjcars">
+                            <h3 title="mjcars">ติดต่อ</h3>
+                            <div className="contentIcon" title="mjcars">
+                                <div className="line" title="mjcars">
+                                    <Link to="https://line.me/R/ti/p/@254ubqgv?from=page&searchId=254ubqgv" title="mjcars">
+                                        <i className="bi bi-line" title="mjcars"></i>
+                                        <p title="mjcars"> รถเช่าอุบลราคาถูก MJ car for rent </p>
                                     </Link>
                                 </div>
-                                <div className="facebook">
-                                    <Link to="https://www.facebook.com/profile.php?id=61556639227840&mibextid=LQQJ4d">
-                                        <i className="bi bi-facebook">
+                                <div className="facebook" title="mjcars">
+                                    <Link to="https://www.facebook.com/profile.php?id=61556639227840&mibextid=LQQJ4d" title="mjcars">
+                                        <i className="bi bi-facebook" title="mjcars">
                                         </i><p> รถเช่าอุบลราคาถูก MJ car for rent
                                         </p>
                                     </Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="map">
-                            <h3>Google Map</h3>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3848.9444922271596!2d104.8350006765121!3d15.270822622436254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3116880bdcb77729%3A0x91417a2c14f80245!2z4Lia4Li04LmK4LiB4LiL4Li1IOC4i-C4ueC5gOC4m-C4reC4o-C5jOC5gOC4i-C5h-C4meC5gOC4leC4reC4o-C5jCDguK3guLjguJrguKXguKPguLLguIrguJjguLLguJnguLU!5e0!3m2!1sth!2sth!4v1709010526194!5m2!1sth!2sth" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <div className="map" title="mjcars">
+                            <h3 title="mjcars">Google Map</h3>
+                            <iframe title="mjcars" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3848.4586695642975!2d104.86956607511986!3d15.297288985275815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDE3JzUwLjIiTiAxMDTCsDUyJzE5LjciRQ!5e0!3m2!1sth!2sth!4v1710779532700!5m2!1sth!2sth" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="notCopy">
-                <p>@ MJ cars 27/2/2567</p>
+            <div className="notCopy" title="mjcars">
+                <p title="mjcars">@ MJ cars 27/2/2567</p>
             </div>
         </div>
     )

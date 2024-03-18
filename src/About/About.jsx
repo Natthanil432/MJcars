@@ -6,10 +6,10 @@ export default function About() {
     <div> 
       
         <Navbar />
-        <div className="About">
+        <div className="About" title="mjcars">
             <Abouts />
         </div>
-        <div className="footer">
+        <div className="footer" title="mjcars">
             <Footer />
         </div>
     </div>

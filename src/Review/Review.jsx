@@ -14,9 +14,10 @@ export default function Review() {
             image.map((image) => {
               return (
                 <>
+                  
                   <div className="boxReview">
                     <div className="image">
-                      <img src={image} alt="" />
+                      <img src={image} alt="mjcars" title='mjcars'/>
                     </div>
                   </div>
                 </>

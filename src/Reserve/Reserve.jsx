@@ -19,21 +19,25 @@ export default function Reserve() {
   return (
     <div>
       <Navbar />
-      <div className="cars">
-        <div className="boxTotal">
+      <div className="mjcars">
+        <h5 title='mjcars'>เริ่มต้นที่  <b>{price} บาท</b></h5>
+      </div>
+      <div title='mjcars' className="cars">
+
+        <div title='mjcars' className="boxTotal">
           {
             titleCar.map((title, i) => {
               return (
                 <>
-                  <a href="https://line.me/R/ti/p/@254ubqgv?from=page&searchId=254ubqgv" target="_blank" rel="noreferrer">
-                    <div className="boxCars">
-                      <div className="imageCar">
-                        <img src={image[i]} alt="" />
+                  <a href="https://line.me/R/ti/p/@254ubqgv?from=page&searchId=254ubqgv" title='mjcars' target="_blank" rel="noreferrer">
+                    <div title='mjcars' className="boxCars">
+                      <div title='mjcars' className="imageCar">
+                        <img src={image[i]} title='mjcars' alt="mjcars" />
                       </div>
-                      <div className="titleCar">
-                        <h1>{title}</h1>
-                        <h6>{gen[i]}</h6>
-                        <h5>ราคาเริ่มต้นที่  <b>{price} บาท</b></h5>
+                      <div title='mjcars' className="titleCar">
+                        <h1 title='mjcars'>{title}</h1>
+                        <h6 title='mjcars'>{gen[i]}</h6>
+
                       </div>
                     </div>
                   </a>
